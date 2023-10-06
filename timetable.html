@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CTU-Buddy</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/CTUlogo.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="timetable.html">TIMETABLE</a></li>
+                    <li><a href="discussion.html">DISCUSSION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>YOUR WEEKLY TIMETABLE</h1>
+    </section>
+    
+    
+    <body>
+        <header>
+            <h1>Your Weekly Timetable</h1>
+            <p>Stay organized and manage your schedule effectively.</p>
+        </header>
+        <nav>
+            
+        </nav>
+        <section id="timetable-section">
+            <h2>Weekly Timetable</h2>
+    
+        <table class="timetable">
+           <table border="10">
+            <tr>
+                <th>DAY</th>
+                <th>Monday @9AM</th>
+                <th>Tuesday @8AM</th>
+                <th>Wednesday @8AM</th>
+                <th>Thursday @8AM</th>
+                <th>Friday @9AM</th>
+           </tr>
+           <tr>
+                <td>SUBJECT</td>
+                <td>CF412</td>
+                <td>DLP412</td>
+                <td>PRP412</td>
+                <td>RDA411</td>
+                <td>CWD412</td>    
+           </tr>
+           </table>
+                <!-- Add more rows for each time slot -->
+            </tbody>
+            <a href="http://127.0.0.1:5500/about.html"
+                Back
+            <a/>
+        
+    
+            <div id="transparent-element">
+                <!-- Content with transparent background -->
+                Back
+            
+              </div>
+        </section>
+        <footer>
+         Here you can find your weekly timetable with time indicating when your lesson starts
+           <br><br> Please manage your time and workload efectively so that you perform at optimal conditions. Try not to miss any lectures, if absent please have a dcotors note with the next time you come to campus.
+            <p>&copy; 2023 CTU-Buddy. All rights reserved.</p>
+        </footer>
+    </body>
+    
+<div>
+    
+</div>
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    

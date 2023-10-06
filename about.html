@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CTU-Buddy</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="[![Netlify Status](https://api.netlify.com/api/v1/badges/7ea155ee-0c89-47d8-b642-44a496452aee/deploy-status)](https://app.netlify.com/sites/dansolo/deploys)">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/CTUlogo.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="timetable.html">TIMETABLE</a></li>
+                    <li><a href="discussion.html">DISCUSSION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>     
+            <p>CTU Training Solutions, Creative Technology Universitas, and Corporate Training Unlimited. Together, we create a comprehensive ecosystem that caters to the diverse needs of our students and corporate clients, offering hybrid education and training solutions that drive personal and professional growth.</p>
+            <a href="https://www.instagram.com/daniel_claassen/" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+     <div class="row">
+                <div class="campus-col">
+                    <img src="professional photo.jpg">
+                    <div class="layer">
+                        <h3>Daniel Claassen</h3>
+                    </div>
+                </div>
+</section>
+
+<section>
+    <table class="timetable">
+        <table border="10" cellpadding="20" cellspacing="10">
+         <tr>
+             <th>ROLES</th>
+        </tr>
+        <tr>
+             <td>Lead web developer</td>
+             <td>Database administrator</td>
+             <td>Quality assure</td>
+            
+        </tr>
+        </table>
+
+
+
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>This website has been made by me alone, Daniel Claassen. I was responsible for for creating each page for the website and same with CSS file. I am responsoble for all work done on this website with some help from youtube vidoes and tutorial videos</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Daniel Claassen</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+<footer>
+    <p>&copy; 2023 CTU-Buddy. All rights reserved.</p>
+</footer>
+    
+</body>
+</html>    
